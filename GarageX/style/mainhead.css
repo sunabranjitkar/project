@@ -1,0 +1,43 @@
+/* main header */
+.main-head{
+    background: url('../img/mainheadpic.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    min-width: 10vh;
+}
+nav h1{
+    flex: 1 1 40rem;
+    align-items: center;
+    color: aqua;
+    padding: 1rem;
+    z-index: 3;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    padding: 1rem;
+}
+nav ul a{
+    color: white;
+    padding: 1rem 1.5rem;
+}
+nav ul a:hover{
+    background: rgba(0, 0, 0, 0.4);
+    transition: background 0.5s ease;
+}
+
+.main-header{
+    color: rgb(255, 255, 255);
+    height: 90vh;
+}

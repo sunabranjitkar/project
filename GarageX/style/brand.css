@@ -1,0 +1,28 @@
+/* brands */
+.brands{
+    min-height: 50vh;
+    flex-wrap: wrap;
+    display: flex;
+}
+.brand-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 50rem;
+    background-color: black;
+    color: white;
+}
+.brand-icon{
+    display: flex;
+    flex-direction: row;
+    flex: 4 1 50rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.brand-icon img{
+    overflow: hidden;
+    padding: 1rem;
+    margin: 1rem;
+    height: calc(7rem + 1vw);
+}

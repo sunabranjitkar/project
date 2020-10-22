@@ -1,0 +1,41 @@
+/* service section */
+
+.service-list img{
+    min-height: 2vh;
+}
+.service{
+    display: flex ;
+    min-height: 50vh;
+    flex-wrap: wrap;
+}
+.service-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 40rem;
+    background-color: black;
+    color: white;
+}
+.service-list{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 40rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.serviceicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: 3rem;
+
+}
+.service img{
+    height: calc(7rem + 1vw);
+    
+}

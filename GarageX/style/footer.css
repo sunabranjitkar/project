@@ -1,0 +1,47 @@
+footer {
+  min-height: 20vh;
+  background-color: black;
+  display: flex;
+}
+.footer-header h2 {
+  font-size: 2rem;
+  color: aliceblue;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 40rem;
+  text-align: center;
+}
+.social-icon {
+  flex: 2 1 40rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.social-icon img {
+  height: 4rem;
+  margin: 2rem;
+}
+.social-icon img:hover {
+  margin-top: 3rem;
+}
+.footer-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

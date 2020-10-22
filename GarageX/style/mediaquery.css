@@ -1,0 +1,75 @@
+@media screen and (max-width: 840px){
+    .service-header{
+        order: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .service-list{
+        order: 1;
+    }
+}
+@media screen and (max-width: 700px){
+    html{
+        font-size: 57%;
+    }
+.nav{
+    margin: 0;
+    padding: 0;
+}
+.nav h1{
+    padding-top: 2rem;
+}
+.nav ul{
+    padding-top: 2rem;
+}
+
+.service-list{
+    max-height: 60vh;
+}
+.serviceicon img{
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+.service-header{
+    order: 0;
+    padding: 0;
+    margin: 0;
+}
+.service-list{
+    order: 1;
+}
+.brand-icon{
+    overflow: hidden;
+}
+.service{
+    min-height: 50vh;
+    flex-wrap: wrap;
+    display: flex;
+}
+.service-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 40rem;
+    background-color: black;
+    color: white;
+}
+.service-list{
+    display: flex;
+    flex-direction: row;
+    flex: 4 1 40rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+.serviceicon img{
+    height: 8vh;
+    margin-bottom:2rem ;
+}
+.arrow{
+    display: none;
+}
+
+}

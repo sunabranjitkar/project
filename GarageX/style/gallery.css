@@ -1,0 +1,35 @@
+/* gallery section */
+
+.gallery{
+    min-height: 100vh;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+.gallerypics{
+    height: 100vh;
+    display: flex;
+    flex: 1 1 40rem;
+    flex-wrap: wrap;
+}
+.gallerypics img{
+    display: flex;
+    max-height: 50%;
+    flex: 1 1 40rem;
+    object-fit: cover;
+}
+.gallery-head{
+    flex-direction: row;
+    background-color: rgba(68, 68, 68, 0.2);
+    color: white;
+    position: absolute;
+}
+.gallery-head h2{
+    padding: 1rem;
+}
+

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*to make padding inside the box/frame */
+}
+html {
+  font-size: 65.5%; /*1rem=10px not 16px */
+  scroll-behavior: smooth;
+  /* lets create varable for easy */
+  --header1: calc(
+    2.3rem + 1vw
+  ); /*there should be space between signs and values */
+  --header2: calc(3.5rem + 1vw);
+  --header3: calc(3rem + 1vw);
+  --header4: calc(2.4rem + 1vw);
+  --text: calc(1.5rem + 1vw);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: var(--header1);
+}
+h2 {
+  font-size: var(--header2);
+}
+h3 {
+  font-size: var(--header3);
+}
+h4,
+h5 {
+  font-size: var(--header4);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+li,
+a,
+button,
+label,
+input,
+p {
+    font-size: var(--text);
+}
+
+
+/* our flex class */
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
